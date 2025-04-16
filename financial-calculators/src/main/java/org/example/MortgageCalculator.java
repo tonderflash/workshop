@@ -36,6 +36,7 @@ public class MortgageCalculator {
      * @param loanTermYears loan term in years
      * @return total interest paid
      */
+    
     public static double calculateTotalInterest(double monthlyPayment, double principal, int loanTermYears) {
         // Total payments = monthly payment * number of payments
         double totalPayments = monthlyPayment * loanTermYears * 12;
